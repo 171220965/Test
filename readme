@@ -1,3 +1,6 @@
-<pre>
-<p>在 readme 添加以下内容：<b>#runoob git 测试</b> 然后保存退出。</p>
-ZZZZ
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:171220965/Test.git
+git push -u origin master
